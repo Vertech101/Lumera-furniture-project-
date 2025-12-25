@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+body{
+      background: lightgrey;
+      color: #1a1a1a;
+}
+
+.navbar{
+        background-color: #111;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem 1rem 2rem;
+}
+
+.navbar .logo{
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: gold;
+            position: relative;
+            right: 8px;
+}
+
+.cart-icon{
+        position: relative;
+        left: 8px;
+}
+
+.nav-link{
+          list-style-type: none;
+          display: flex;
+          justify-content: space-evenly;
+          gap: 1.3rem;
+          
+}
+
+.nav-link a{
+          text-decoration: none;
+          color: #f2f2f2;
+}
+
+.banner{
+        position: relative;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 4rem;
+        overflow: hidden;
+        color: white;
+}
+
+ .bg-image{
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: url('./b0be7c1a2effc9d34ce45858ef7f0fda.jpg') no-repeat center center/cover;
+          z-index: 0;
+          filter: brightness(0.4);
+ }
+ 
+ .banner-text{
+            position: relative;
+            z-index: 1;
+ }
+ 
+ .banner-text h1{
+              font-size: 3rem;
+              color: gold;
+ }
+ 
+ .banner-text p{
+            font-size: 1.2rem;
+            margin: 0.5rem 0 1rem;
+            color: white;
+ }
+   
+.banner-btn{
+          background-color: gold;
+          color: #111;
+          padding: 0.8rem 1.5rem;
+          text-decoration: none;
+          border-radius: 5px;
+          font-weight: bold;
+}
+
+.product-section{
+            padding: 3rem 2rem;
+            
+}
+
+.section-title{
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+}
+
+.product-grid{
+          display: flex;
+          gap: 2rem;
+          justify-content: center;
+          flex-wrap: wrap;
+          
+}
+
+.product-card{
+          background-color: #fafafa;
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+          padding: 1rem;
+          border-radius: 10px;
+          text-align: center;
+          width: 250px;
+}   
+
+.product-card img{
+          width: 100%;
+          border-radius: 8px;
+          
+}
+
+
+.product-card h3{
+            margin: 0.8rem 0 0.4rem;
+}
+
+.product-card p{
+            color: #888;
+            margin-bottom: 1rem;
+}  
+
+.product-card button{
+              background-color: gold;
+              border: none;
+              padding: 0.6rem 1rem;
+              color: #111;
+              font-weight: bold;
+              border-radius: 5px;
+              cursor: pointer;
+}
+
+.footer{
+      background-color: #111;
+      color: #ccc;
+      text-align: center;
+      padding: 2rem;
+}
+
+.footer .socials a{
+        color: gold;
+        padding: 0 0.5rem;
+        text-decoration: none;
+}
